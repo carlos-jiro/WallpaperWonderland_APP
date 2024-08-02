@@ -1,0 +1,79 @@
+.MC {
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+
+    position:fixed;
+    top: 0;
+    left: 0;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    box-sizing: border-box;
+}
+.MC a {
+    user-select: none;
+}
+.left {
+    width: 33.3333%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imgContainer img {
+    user-select: none;
+    cursor: pointer;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.center {
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.center a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.rigth {
+    width: 33.3333%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rigth a {
+    color: rgb(20, 20, 20);
+}
+
+/* ------------------------------------------------------------------------------ NavBtn */
+.NavBtn {
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.NavBtn:hover {
+    background-color: rgb(230, 230, 216);
+}
+.NavBtn p {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .8rem;
+}
+.rigth .NavBtn {
+    padding: 0.5rem 0.8rem;
+}
+.NavBtn i {
+    font-size: 1.7rem;
+    font-weight: 700;
+}

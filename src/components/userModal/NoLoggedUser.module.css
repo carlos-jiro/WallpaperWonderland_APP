@@ -1,0 +1,144 @@
+.MC {
+    width: 80%;
+    overflow: hidden;
+}
+
+.title {
+    padding: 1rem 0;
+}
+
+.title h1 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.GoogleSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/*-----------------------------------------------------  divider*/
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .dividerLine {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .dividerText {
+    white-space: nowrap;
+    color: #888; /* Ajusta el color según sea necesario */
+    font-size: 0.8rem;
+  }
+
+/*-----------------------------------------------------  Form*/
+
+.FormContainer {
+    padding: 1rem 0;
+}
+.FormContainer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.inputStyle {
+    width: 99%;
+    background-color: #fafbfe;
+    border: 1px solid rgb(196, 189, 189);
+    border-radius: 5px;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.inputStyle input{
+    border: none;
+    width: 100%;
+    height: 2.1rem;
+    outline: none;
+    padding-left: 0.5rem;
+}
+
+.inputStyle input:focus{
+    border-color: none;
+}
+
+
+.inputPass {
+    width: 99%;
+    background-color: #fafbfe;
+    border: 1px solid rgb(196, 189, 189);
+    border-radius: 5px;
+    height: 2rem;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputPass input {
+    border: none;
+    height: 2rem;
+    width: 90%;
+    outline: none;
+    padding-left: 0.5rem;
+}
+
+.inputPass button {
+    border: none;
+    height: 2rem;
+    padding: 0 .5rem;
+    background-color: transparent;
+}
+.inputPass button:hover {
+    background-color: rgb(233, 224, 224);
+}
+
+#login {
+    width: 99%;
+    background-color: #065ad8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    overflow: hidden;
+}
+/*-----------------------------------------------------  forgot from*/
+
+.remFor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+/*-----------------------------------------------------  button form*/
+
+
+/*-----------------------------------------------------  footer*/
+.newAcc {
+    text-align: center;
+}
+
+.newAcc p {
+    font-size: 0.8rem;
+}
+
+.newAcc a {
+    color: #065ad8;
+    text-decoration: none;
+}
